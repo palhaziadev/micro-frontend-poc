@@ -1,0 +1,5 @@
+{
+  "shop": "http://localhost:4201",
+  "cart": "http://localhost:4202",
+  "warehouse": "http://localhost:4203"
+}

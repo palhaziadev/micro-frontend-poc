@@ -1,0 +1,19 @@
+{
+  "name": "state-manager",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "state-manager/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/state-manager",
+        "main": "state-manager/src/index.ts",
+        "tsConfig": "state-manager/tsconfig.lib.json",
+        "assets": ["state-manager/*.md"]
+      }
+    }
+  }
+}
